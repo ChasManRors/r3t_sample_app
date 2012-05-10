@@ -37,7 +37,7 @@ describe "Static pages" do
                 #   end
                 # end
 
-  SUBJECT { page }
+  subject { page }
 
   describe "Home page" do
     before { visit root_path }
